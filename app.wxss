@@ -1,0 +1,17 @@
+/**app.wxss**/
+@import '/asserts/iconfont/iconfont.wxss';
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+} 
+.copyright {
+  align-self: center;
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  padding-bottom: 15rpx;
+  color: #aaa;
+}

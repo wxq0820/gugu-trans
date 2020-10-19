@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="language">
+		<navigator url="/pages/change/change">
+			<text class="title">到{{curLang.chs}}</text>
+			<text class="iconfont icon-down"></text>
+		</navigator>
+
+	</view>
+	<view class="trans">
+		<textarea placeholder="请输入要翻译的内容" bindinput="onInput" bindblur="onConfirm" bindblur="onConfirm" value="{{query}}"></textarea>
+		<text class="iconfont icon-close" hidden="{{iconHideState}}" bindtap="onTapClose"></text>
+	</view>
+	<view class="result">
+		<view class="result-title">译文</view>
+		<view class="result-item" wx:for="{{result}}" wx:key="index">
+			<text>{{item.dst}}</text>
+		</view>
+	</view>
+	<view class="copyright">
+		<text>© 一见如顾 2020</text> 
+	</view>
+</view>

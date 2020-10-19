@@ -1,0 +1,49 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  background-color: #f0fcff;
+}
+
+.language {
+  padding: 10rpx 40rpx;
+  font-size: 30rpx;
+  color: #aaa;
+}
+
+.language .icon-down {
+  font-size: 30rpx;
+}
+
+.trans {
+  background-color: #fff;
+  position: relative;
+  border-bottom: 2px solid #f0fcff;
+  padding: 20rpx 0 20rpx 40rpx;
+}
+
+.trans textarea {
+  width: calc(100% - 58rpx);
+}
+.trans .icon-close {
+  position: absolute;
+  top: 20rpx;
+  right: 0;
+  width: 58rpx;
+  text-align: center;
+}
+
+.result {
+  background-color: #fff;
+  min-height: 180rpx;
+  padding: 0 40rpx;
+}
+
+.result .result-title {
+  border-bottom: 1px solid #f0fcff;
+  padding: 15rpx 0;
+  color: #aaa;
+}
+
+.result .result-item {
+  padding: 15rpx 0;
+}

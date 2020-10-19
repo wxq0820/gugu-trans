@@ -1,0 +1,28 @@
+page {
+    background-color: #f0fcff;
+}
+
+.lang-title {
+    font-size: 30rpx;
+    color: #aaa;
+    padding: 20rpx 40rpx;
+    border-bottom: 1px solid #f0fcff;
+}
+.lang-item {
+    background-color: #fff;
+    padding: 0 50rpx;
+}
+.item {
+    display: flex;
+    padding: 20rpx 0;
+    border-bottom: 1px solid #f0fcff;
+}
+.lang-title {
+    align-self: flex-start;
+    text-align: left;
+}
+.lang-item .icon-duihao {
+    flex: 1;
+    align-self: flex-end;
+    text-align: right;
+}
