@@ -1,0 +1,9 @@
+<scroll-view scroll-y class="container">
+	<view class="result-title">翻译记录</view>
+	<view class="result-item" bindtap="onTapHistory" data-query='{{result.query}}' data-result='{{result.result}}' data-lang='{{result.curLang}}' wx:for='{{history}}' wx:key='index' wx:for-item='result' >
+		<view class="item">
+			<text class="result-query">{{result.query}}</text>
+			<text class="result-trans">{{result.result}}</text>
+		</view>
+	</view>
+</scroll-view>

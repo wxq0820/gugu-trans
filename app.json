@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/change/change",
+    "pages/history/history"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3d3b4f",
+    "navigationBarTitleText": "咕咕翻译君             ",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "top",
+    "color": "#000000",
+    "selectedColor": "#177cb0",
+    "backgroundColor": "white",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "翻译"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史记录"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
